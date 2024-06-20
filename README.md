@@ -8,7 +8,7 @@ Real-Time Prediction: Get instant predictions of your handwritten digits.
 Machine Learning: Utilizes a robust machine learning model for accurate digit classification.
 Django Backend: A scalable and secure backend powered by Django.
 
-###Acknowledgements
+### Acknowledgements
 The MNIST dataset is publicly available and was used for training the machine learning model.
 Special thanks to the Django and TensorFlow communities for their excellent resources and documentation.
 Special thanks to Pyplane for django tutorial
