@@ -17,4 +17,5 @@ Machine Learning: The classification model is trained on the MNIST dataset, a we
 The MNIST dataset is publicly available and was used for training the machine learning model.
 Special thanks to the Django and TensorFlow communities for their excellent resources and documentation.
 Special thanks to Pyplane for django tutorial
+
 Project from Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition
