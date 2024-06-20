@@ -2,11 +2,16 @@
 
 Welcome to the Handwritten Digit Classifier project! This application leverages the power of machine learning to classify handwritten digits, using a Django web framework for the backend. The goal is to provide a user-friendly interface where users can draw a digit on the screen, and the application will predict the digit based on a pre-trained machine learning model.
 
-### Features
-User-Friendly Interface: A simple and intuitive interface to draw digits.
-Real-Time Prediction: Get instant predictions of your handwritten digits.
-Machine Learning: Utilizes a robust machine learning model for accurate digit classification.
-Django Backend: A scalable and secure backend powered by Django.
+### Key Features
+Interactive Interface: Users can draw digits directly on a canvas and submit them for classification.
+Real-Time Predictions: The application delivers instant predictions based on the drawn digit.
+Robust Machine Learning Model: The digit classification is powered by a pre-trained machine learning model, ensuring high accuracy.
+Django Backend: Utilizes the Django framework to handle the backend operations, providing a scalable and secure foundation.
+
+### Technical Overview
+Frontend: The user interface is built using HTML, CSS,React and JavaScript, offering an intuitive drawing experience.
+Backend: Django serves as the backbone of the application, managing user interactions and communicating with the machine learning model.
+Machine Learning: The classification model is trained on the MNIST dataset, a well-known dataset of handwritten digits, ensuring reliable predictions.
 
 ### Acknowledgements
 The MNIST dataset is publicly available and was used for training the machine learning model.
