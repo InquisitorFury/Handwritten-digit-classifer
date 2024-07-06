@@ -1,7 +1,7 @@
 from django.urls import path
-from . import views
+from .views import PaintView
+
 urlpatterns = [
-    path('paint', views.paint, name='paint'),
-    #path('files', views.files, name='files'),
-   # path('search', views.search, name='search'),
+    path('', PaintView.as_view(), name='paint'),
+   
 ]
