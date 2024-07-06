@@ -1,5 +1,6 @@
 from django.db import models
-
+from PIL import Image
+from keras.preprocessing.image import img_to_array
 # Create your models here.
 class Digit(models.Model):
     image = models.ImageField(upload_to='images')
