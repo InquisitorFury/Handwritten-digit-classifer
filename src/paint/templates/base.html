@@ -56,8 +56,19 @@
         }
 
         function saveCanvas() {
-         
+            const dataURL = canvas.toDataURL('image/jpg');
+            const link = document.createElement('a');
+            link.href = dataURL;
+            link.download = 'canvas.png';
+            link.click();
+            sendData(dataURL)
         }
+
+
+        function sendData(c) {
+            console.log(c)
+        }
+
 
         canvas.addEventListener('mousedown', startPosition);
         canvas.addEventListener('mouseup', endPosition);
