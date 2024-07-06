@@ -24,4 +24,3 @@ class PaintView(View):
         drawing.save()
 
         return JsonResponse({'status': 'success', 'file_name': drawing.image.url})
-
