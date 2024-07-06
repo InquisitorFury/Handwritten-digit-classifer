@@ -11,6 +11,7 @@
         }
         canvas {
             border: 1px solid black;
+   
         }
         .controls {
             margin: 20px;
@@ -26,7 +27,9 @@
     <canvas id="paintCanvas" width="800" height="600"></canvas>
     <script>
         const canvas = document.getElementById('paintCanvas');
+        
         const ctx = canvas.getContext("2d");
+   
         let painting = false;
 
         function startPosition(e) {
@@ -41,10 +44,9 @@
 
         function draw(e) {
             if (!painting) return;
-            ctx.lineWidth = 5;
+            ctx.lineWidth = 16;
             ctx.lineCap = 'round';
             ctx.strokeStyle = 'black';
-
             ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
             ctx.stroke();
             ctx.beginPath();
